@@ -5,7 +5,6 @@
 // https://www.codewars.com/kata/59be6bdc4f98a8a9c700007d/train/javascript
 
 function removeChars(s) {
-    try {
       let re = /[A-Za-z ]/g;
       let found = s.match(re);
       console.log(found);
@@ -15,7 +14,4 @@ function removeChars(s) {
         found = found.join('')
         return found
       }
-      
-    } catch (e){
-      console.log(e)
-    }
+  }
