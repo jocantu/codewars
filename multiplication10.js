@@ -9,3 +9,4 @@ function multiTable(number) {
   8 * ${number} = ${number*8}
   9 * ${number} = ${number*9}
   10 * ${number} = ${number*10}`
+}
